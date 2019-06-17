@@ -7,18 +7,19 @@ package ec.edu.ups.clases;
 
 /**
  *
- * @author 59398
+ * @author QuezadaBryam
  */
 public class Texto {
-     private String nombre;
+    
+    //atributos
+    private String nombre;
     private int cantidad;
-    /**
-     * Constructor vacio
-     */
+    
+    //constructor vacio
     public Texto() {
     }
     
-    
+    //creacion de geters y setters de los atributos
     public String getNombre() {
         return nombre;
     }
@@ -34,10 +35,7 @@ public class Texto {
     public void setCantidad(int cantidad) {
         this.cantidad = cantidad;
     }
-    /**
-     * ToString que imprime
-     * @return 
-     */
+    
     @Override
     public String toString() {
         return "Palabras{" + "nombre=" + nombre + ", cantidad=" + cantidad + '}';

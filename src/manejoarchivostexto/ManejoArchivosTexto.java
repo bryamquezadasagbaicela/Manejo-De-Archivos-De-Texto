@@ -21,11 +21,7 @@ import java.util.Scanner;
  */
 public class ManejoArchivosTexto {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) throws IOException {
-
 
         //primero colocar la ruta.
         ControladorTextoIngresado tc = new ControladorTextoIngresado();
